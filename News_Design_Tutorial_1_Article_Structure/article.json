@@ -1,0 +1,24 @@
+{
+  "title": "Article Title",
+  "metadata": {
+    "thumbnailURL": "bundle://header.jpg",
+    "excerpt": "Quia consequuntur magni accusantium doloremque eos qui ratione voluptatem sequi nesciunt?"
+  },
+  "version": "1.5",
+  "identifier": "testArticle",
+  "language": "en",
+  "layout": {
+    "columns": 10,
+    "width": 1024,
+    "margin": 85,
+    "gutter": 20
+  },
+  "documentStyle": {
+    "backgroundColor": "#F5F9FB"
+  },
+  "components": [],
+  "textStyles": {},
+  "componentLayouts": {},
+  "componentStyles": {},
+  "componentTextStyles": {}
+}
