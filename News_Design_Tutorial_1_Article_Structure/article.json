@@ -47,11 +47,13 @@
     },
     {
       "role": "photo",
+      "layout": "fullBleedLayout",
       "caption": "A caption for the photo.",
       "URL": "bundle://header.jpg"
     },
     {
       "role": "caption",
+      "layout": "halfMarginBothLayout",
       "text": "ABOVE: A caption for the photo. (Attribution)"
     },
     {
@@ -161,6 +163,17 @@
         "top": 6,
         "bottom": 6
       }
+    },
+    "fullBleedLayout": {
+      "ignoreDocumentMargin": true
+    },
+    "halfMarginBothLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 12,
+        "bottom": 12
+      }
     }
   },
   "componentStyles": {},
@@ -213,6 +226,14 @@
         "textColor": "#A6AAA9",
         "numberOfLines": 2
       }
+    },
+    "default-caption": {
+      "fontName": "IowanOldStyle-Italic",
+      "fontSize": 12,
+      "lineHeight": 16,
+      "paragraphSpacingBefore": 12,
+      "paragraphSpacingAfter": 12,
+      "textColor": "#53585f"
     }
   }
 }
