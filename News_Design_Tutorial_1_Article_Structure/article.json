@@ -163,6 +163,50 @@
     {
       "role": "heading2",
       "layout": "fullMarginAboveHalfBelowLayout",
+      "text": "MOSAIC HEADING"
+    },
+    {
+      "role": "mosaic",
+      "layout": "noMarginLayout",
+      "items": [
+        {
+          "URL": "bundle://mosaic-01.jpg",
+          "caption": "A caption for the first image in the mosaic"
+        },
+        {
+          "URL": "bundle://mosaic-02.jpg",
+          "caption": "A caption for the second image in the mosaic"
+        },
+        {
+          "URL": "bundle://mosaic-03.jpg",
+          "caption": "A caption for the third image in the mosaic"
+        },
+        {
+          "URL": "bundle://mosaic-04.jpg",
+          "caption": "A caption for the fourth image in the mosaic"
+        },
+        {
+          "URL": "bundle://mosaic-05.jpg",
+          "caption": "A caption for the fifth image in the mosaic"
+        }
+      ]
+    },
+    {
+      "role": "caption",
+      "layout": "halfMarginBothLayout",
+      "text": "ABOVE: A caption for the entire mosaic. Individual photos in the mosaic also have their own captions. (Shared attribution)"
+    },
+    {
+      "role": "divider",
+      "layout": "noMarginLayout",
+      "stroke": {
+        "width": 1,
+        "color": "#D5B327"
+      }
+    },
+    {
+      "role": "heading2",
+      "layout": "fullMarginAboveHalfBelowLayout",
       "text": "HEADING"
     },
     {
