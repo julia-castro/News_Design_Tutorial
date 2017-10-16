@@ -46,6 +46,10 @@
       "text": "By Ron Weasley"
     },
     {
+      "role": "photo",
+      "URL": "bundle://header.jpg"
+    },
+    {
       "role": "body",
       "format": "html",
       "textStyle": "bodyFirstDropCap",
