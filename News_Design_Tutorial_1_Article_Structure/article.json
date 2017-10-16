@@ -47,7 +47,12 @@
     },
     {
       "role": "photo",
+      "caption": "A caption for the photo.",
       "URL": "bundle://header.jpg"
+    },
+    {
+      "role": "caption",
+      "text": "ABOVE: A caption for the photo. (Attribution)"
     },
     {
       "role": "body",
