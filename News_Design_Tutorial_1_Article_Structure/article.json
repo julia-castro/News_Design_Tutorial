@@ -225,6 +225,16 @@
       "format": "html",
       "layout": "noMarginLayout",
       "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio. Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."
+    },
+    {
+      "role": "heading2",
+      "layout": "fullMarginAboveHalfBelowLayout",
+      "text": "TWEET HEADING"
+    },
+    {
+      "role": "tweet",
+      "layout": "noMarginLayout",
+      "URL": "https://twitter.com/hypedresonance/status/916110238595633152"
     }
   ],
   "textStyles": {},
