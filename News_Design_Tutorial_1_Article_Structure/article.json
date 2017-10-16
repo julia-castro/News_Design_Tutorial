@@ -124,6 +124,37 @@
       "text": "HEADING"
     },
     {
+      "role": "gallery",
+      "layout": "noMarginLayout",
+      "items": [
+        {
+          "URL": "bundle://gallery-01.jpg",
+          "caption": "A caption for the first image in the gallery"
+        },
+        {
+          "URL": "bundle://gallery-02.jpg",
+          "caption": "A caption for the second image in the gallery"
+        },
+        {
+          "URL": "bundle://gallery-03.jpg",
+          "caption": "A caption for the third image in the gallery"
+        }
+      ]
+    },
+    {
+      "role": "caption",
+      "layout": "halfMarginBothLayout",
+      "text": "ABOVE: A caption for the entire gallery. Individual photos in the gallery also have their own captions. (Shared attributions)"
+    },
+    {
+      "role": "divider",
+      "layout": "fullMarginBelowLayout",
+      "stroke": {
+        "width": 1,
+        "color": "#D5B327"
+      }
+    },
+    {
       "role": "body",
       "format": "html",
       "layout": "noMarginLayout",
