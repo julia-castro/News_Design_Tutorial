@@ -75,12 +75,31 @@
       "text": "<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio ducimus qui blanditiis.</p>"
     },
     {
-      "role": "pullquote",
-      "text": "QUIA CONSEQUUNTUR MAGNI DOLORES EOS QUI RATIONE VOLUPTATEM SEQUI NESCIUNT."
+      "role": "divider",
+      "layout": "fullMarginAboveLayout",
+      "stroke": {
+        "width": 1,
+        "color": "#D5B327"
+      }
     },
     {
       "role": "pullquote",
+      "layout": "halfMarginAboveQuarterBelowLayout",
+      "text": "“QUIA CONSEQUUNTUR MAGNI DOLORES EOS QUI RATIONE VOLUPTATEM SEQUI NESCIUNT.“"
+    },
+    {
+      "role": "pullquote",
+      "layout": "halfMarginBelowLayout",
+      "textStyle": "attribution",
       "text": "- ATTRIBUTION"
+    },
+    {
+      "role": "divider",
+      "layout": "fullMarginBelowLayout",
+      "stroke": {
+        "width": 1,
+        "color": "#D5B327"
+      }
     },
     {
       "role": "body",
@@ -188,6 +207,21 @@
         "top": 12,
         "bottom": 12
       }
+    },
+    "fullMarginAboveLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 24
+      }
+    },
+    "halfMarginAboveQuarterBelowLayout": {
+      "columnStart": 0,
+      "columnSpan": 7,
+      "margin": {
+        "top": 12,
+        "bottom": 6
+      }
     }
   },
   "componentStyles": {},
@@ -248,6 +282,21 @@
       "paragraphSpacingBefore": 12,
       "paragraphSpacingAfter": 12,
       "textColor": "#53585f"
+    },
+    "default-pullquote": {
+      "fontName": "DINAlternate-Bold",
+      "font-size": 30,
+      "lineHeight": 36,
+      "textColor": "#A6AAA9",
+      "hangingPunctuation": true
+    },
+    "attribution": {
+      "fontName": "DINAlternate-Bold",
+      "fontSize": 12,
+      "lineHeight": 16,
+      "tracking": 0.12,
+      "textColor": "#53585F",
+      "textAlignment": "right"
     }
   }
 }
