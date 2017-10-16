@@ -23,6 +23,14 @@
       "text": "HEADING"
     },
     {
+      "role": "divider",
+      "layout": "bigDividerLayout",
+      "stroke": {
+        "width": 3,
+        "color": "#D5B327"
+      }
+    },
+    {
       "role": "title",
       "layout": "halfMarginBelowLayout",
       "text": "ARTICLE TITLE"
@@ -134,6 +142,15 @@
       "margin": {
         "top": 24,
         "bottom":12
+      }
+    },
+    "bigDividerLayout": {
+      "ignoreDocumentMargin": "right",
+      "columnStart": 0,
+      "columnSpan": 10,
+      "margin": {
+        "top": 6,
+        "bottom": 6
       }
     }
   },
